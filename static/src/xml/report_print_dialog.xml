@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+
+    <!-- =========================================================
+         FENÊTRE GLOBALE DES OPTIONS D'IMPRESSION
+    ========================================================== -->
+
+    <t t-name="script_global_report.ReportPrintDialog">
+
+        <Dialog
+            title="'Options d\'impression'"
+            size="'lg'"
+        >
+
+            <div class="script-global-report-dialog">
+
+                <!-- =================================================
+                     ICÔNE
+                ================================================== -->
+
+                <div class="script-global-report-icon">
+                    <i class="fa fa-file-text-o"/>
+                </div>
+
+
+                <!-- =================================================
+                     TITRE
+                ================================================== -->
+
+                <h3 class="script-global-report-title">
+                    Comment souhaitez-vous utiliser ce document ?
+                </h3>
+
+                <p class="script-global-report-description">
+                    Choisissez l'action à effectuer avec ce rapport.
+                </p>
+
+
+                <!-- =================================================
+                     OPTIONS
+                ================================================== -->
+
+                <div class="script-global-report-options">
+
+                    <!-- =============================================
+                         IMPRIMER
+                    ============================================== -->
+
+                    <button
+                        type="button"
+                        class="script-global-report-option script-global-report-option-primary"
+                        t-on-click="print"
+                    >
+
+                        <div class="script-global-report-option-icon">
+                            <i class="fa fa-print"/>
+                        </div>
+
+                        <div class="script-global-report-option-title">
+                            Imprimer
+                        </div>
+
+                        <div class="script-global-report-option-description">
+                            Impression directe
+                        </div>
+
+                    </button>
+
+
+                    <!-- =============================================
+                         TÉLÉCHARGER
+                    ============================================== -->
+
+                    <button
+                        type="button"
+                        class="script-global-report-option"
+                        t-on-click="download"
+                    >
+
+                        <div class="script-global-report-option-icon">
+                            <i class="fa fa-download"/>
+                        </div>
+
+                        <div class="script-global-report-option-title">
+                            Télécharger
+                        </div>
+
+                        <div class="script-global-report-option-description">
+                            Télécharger en PDF
+                        </div>
+
+                    </button>
+
+
+                    <!-- =============================================
+                         OUVRIR
+                    ============================================== -->
+
+                    <button
+                        type="button"
+                        class="script-global-report-option"
+                        t-on-click="openBrowser"
+                    >
+
+                        <div class="script-global-report-option-icon">
+                            <i class="fa fa-external-link"/>
+                        </div>
+
+                        <div class="script-global-report-option-title">
+                            Ouvrir
+                        </div>
+
+                        <div class="script-global-report-option-description">
+                            Ouvrir dans le navigateur
+                        </div>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- =====================================================
+                 FOOTER
+            ====================================================== -->
+
+            <t t-set-slot="footer">
+
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    t-on-click="close"
+                >
+                    Annuler
+                </button>
+
+            </t>
+
+        </Dialog>
+
+    </t>
+
+</templates>
