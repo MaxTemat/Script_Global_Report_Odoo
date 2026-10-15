@@ -1,0 +1,75 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* script_global_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: script_global_report
+#. odoo-javascript
+#: code:addons/script_global_report/static/src/js/report_print_dialog.js:0
+msgid "Print Options"
+msgstr "Options d'impression"
+
+#. module: script_global_report
+#. odoo-javascript
+#: code:addons/script_global_report/static/src/xml/report_print_dialog.xml:0
+msgid "How would you like to use this document?"
+msgstr "Comment souhaitez-vous utiliser ce document ?"
+
+#. module: script_global_report
+#. odoo-javascript
+#: code:addons/script_global_report/static/src/xml/report_print_dialog.xml:0
+msgid "Choose the action to perform with this report."
+msgstr "Choisissez l'action à effectuer avec ce rapport."
+
+#. module: script_global_report
+#. odoo-javascript
+#: code:addons/script_global_report/static/src/xml/report_print_dialog.xml:0
+msgid "Print"
+msgstr "Imprimer"
+
+#. module: script_global_report
+#. odoo-javascript
+#: code:addons/script_global_report/static/src/xml/report_print_dialog.xml:0
+msgid "Direct printing"
+msgstr "Impression directe"
+
+#. module: script_global_report
+#. odoo-javascript
+#: code:addons/script_global_report/static/src/xml/report_print_dialog.xml:0
+msgid "Download"
+msgstr "Télécharger"
+
+#. module: script_global_report
+#. odoo-javascript
+#: code:addons/script_global_report/static/src/xml/report_print_dialog.xml:0
+msgid "Download as PDF"
+msgstr "Télécharger en PDF"
+
+#. module: script_global_report
+#. odoo-javascript
+#: code:addons/script_global_report/static/src/xml/report_print_dialog.xml:0
+msgid "Open"
+msgstr "Ouvrir"
+
+#. module: script_global_report
+#. odoo-javascript
+#: code:addons/script_global_report/static/src/xml/report_print_dialog.xml:0
+msgid "Open in the browser"
+msgstr "Ouvrir dans le navigateur"
+
+#. module: script_global_report
+#. odoo-javascript
+#: code:addons/script_global_report/static/src/xml/report_print_dialog.xml:0
+msgid "Cancel"
+msgstr "Annuler"

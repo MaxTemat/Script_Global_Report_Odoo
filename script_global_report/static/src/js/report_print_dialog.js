@@ -3,6 +3,7 @@
 import { registry } from "@web/core/registry";
 import { Component } from "@odoo/owl";
 import { Dialog } from "@web/core/dialog/dialog";
+import { _t } from "@web/core/l10n/translation";
 
 /**
  * ============================================================
@@ -20,6 +21,7 @@ class ScriptGlobalReportDialog extends Component {
 
     setup() {
         this.report = this.props.report;
+        this.title = _t("Print Options");
     }
 
     close() {

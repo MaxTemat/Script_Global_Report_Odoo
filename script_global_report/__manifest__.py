@@ -2,26 +2,31 @@
     "name": "Script Global Report",
     "version": "19.0.1.0.0",
     "category": "Technical",
-    "website": "https://github.com/MaxTemat?tab=repositories",
-    "summary": "Gestion globale des options d'impression des rapports",
+    "website": "https://github.com/MaxTemat/Script_Global_Report_Odoo",
+    "summary": "A choice window for every report: print, download as PDF or open in the browser",
     "description": """
 Script Global Report
 ====================
 
-Ajoute une fenêtre de choix lors de l'impression d'un rapport :
+Adds a choice window when you print any Odoo report:
 
-- Imprimer
-- Télécharger en PDF
-- Ouvrir dans le navigateur
+- Print (direct printing)
+- Download as PDF
+- Open in the browser
 
-Le module est conçu pour fonctionner globalement avec les rapports Odoo.
+The module works globally with all the Odoo PDF and HTML reports.
+English and French translations included.
 """,
     "author": "SCRIPT CONSULTING",
+    "maintainer": "SCRIPT CONSULTING",
     "license": "LGPL-3",
     "depends": [
         "web",
     ],
     "data": [
+    ],
+    "images": [
+        "static/description/screenshot_1_print_dialog.png",
     ],
     "assets": {
         "web.assets_backend": [

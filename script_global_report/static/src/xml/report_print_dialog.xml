@@ -3,20 +3,20 @@
 <templates xml:space="preserve">
 
     <!-- =========================================================
-         FENÊTRE GLOBALE DES OPTIONS D'IMPRESSION
+         GLOBAL PRINT OPTIONS DIALOG
     ========================================================== -->
 
     <t t-name="script_global_report.ReportPrintDialog">
 
         <Dialog
-            title="'Options d\'impression'"
+            title="title"
             size="'lg'"
         >
 
             <div class="script-global-report-dialog">
 
                 <!-- =================================================
-                     ICÔNE
+                     ICON
                 ================================================== -->
 
                 <div class="script-global-report-icon">
@@ -25,15 +25,15 @@
 
 
                 <!-- =================================================
-                     TITRE
+                     TITLE
                 ================================================== -->
 
                 <h3 class="script-global-report-title">
-                    Comment souhaitez-vous utiliser ce document ?
+                    How would you like to use this document?
                 </h3>
 
                 <p class="script-global-report-description">
-                    Choisissez l'action à effectuer avec ce rapport.
+                    Choose the action to perform with this report.
                 </p>
 
 
@@ -44,7 +44,7 @@
                 <div class="script-global-report-options">
 
                     <!-- =============================================
-                         IMPRIMER
+                         PRINT
                     ============================================== -->
 
                     <button
@@ -58,18 +58,18 @@
                         </div>
 
                         <div class="script-global-report-option-title">
-                            Imprimer
+                            Print
                         </div>
 
                         <div class="script-global-report-option-description">
-                            Impression directe
+                            Direct printing
                         </div>
 
                     </button>
 
 
                     <!-- =============================================
-                         TÉLÉCHARGER
+                         DOWNLOAD
                     ============================================== -->
 
                     <button
@@ -83,18 +83,18 @@
                         </div>
 
                         <div class="script-global-report-option-title">
-                            Télécharger
+                            Download
                         </div>
 
                         <div class="script-global-report-option-description">
-                            Télécharger en PDF
+                            Download as PDF
                         </div>
 
                     </button>
 
 
                     <!-- =============================================
-                         OUVRIR
+                         OPEN
                     ============================================== -->
 
                     <button
@@ -108,11 +108,11 @@
                         </div>
 
                         <div class="script-global-report-option-title">
-                            Ouvrir
+                            Open
                         </div>
 
                         <div class="script-global-report-option-description">
-                            Ouvrir dans le navigateur
+                            Open in the browser
                         </div>
 
                     </button>
@@ -133,7 +133,7 @@
                     class="btn btn-secondary"
                     t-on-click="close"
                 >
-                    Annuler
+                    Cancel
                 </button>
 
             </t>
